@@ -85,9 +85,18 @@
     #btn:hover {
       background: lightyellow;
     }
+    #h6 {
+        font-size: 10px;
+        font-family: Trebuchet MS;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+        color: #5D8AA8;
+    }
   </style>
 </head>
 <body>
+<p id="h6">Author of this project : Harish</p>
   <div id="main">
     <div id="div1">
       <h5 class="h5" id="h51">1</h5>
@@ -413,8 +422,6 @@
       btn8.style.color = 'black';
       checkWin();
     });
-
-
     btn9.addEventListener('click', () => {
       if (btn9.innerHTML == 9) {
         btn9.innerHTML = turn;
@@ -424,8 +431,6 @@
       btn9.style.color = 'black';
       checkWin();
     });
-
-
     btn.addEventListener('click', () => {
       let location = window.location.reload();
     });
